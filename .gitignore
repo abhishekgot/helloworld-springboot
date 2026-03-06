@@ -1,0 +1,43 @@
+# Maven / Java
+/target/
+*.class
+*.log
+*.tmp
+
+# IntelliJ
+/.idea/
+*.iml
+/out/
+
+# VS Code
+/.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Eclipse
+/.classpath
+/.project
+/.settings/
+
+# Maven wrapper (optional to ignore)
+.mvn/wrapper/maven-wrapper.jar
+
+# Environment
+.env
+.env.*
+
+# Build outputs
+/build/
+/dist/
+
+# Other
+*.swp
+*~
+Thumbs.db
+
+# Ignore the jar built by Spring Boot (if you prefer keeping it, remove this)
+/*.jar
+
