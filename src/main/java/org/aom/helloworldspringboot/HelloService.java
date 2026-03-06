@@ -1,0 +1,14 @@
+package org.aom.helloworldspringboot;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class HelloService {
+
+    public String getGreeting(String name) {
+        if (name == null || name.trim().isEmpty()) {
+            return "Hello, World!";
+        }
+        return "Hello, " + name + "!";
+    }
+}
